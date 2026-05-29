@@ -81,8 +81,6 @@ The same design discipline runs through both:
 
 ## Where the rest lives
 
-Public proof-of-concept repository — `github.com/th00masml/nonclassical_logics`.
-
 Working title for the framework: **Formalis**, a 9-stage verification pipeline that wraps an LLM agent and routes each decision through verifiers tied to specific non-classical logics. Not all stages are open. What is open is the benchmark runner skeleton (sketched above), the metric definitions, and a subset of the 82 scenarios. The verifier-per-logic implementations, the LLM-as-judge prompts, and the scaled benchmark (target 3,500+ scenarios) are held back pending publication.
 
 ## Sources
